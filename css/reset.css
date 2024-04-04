@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+address {
+    font-style: normal;
+}
+header,
+nav,
+main,
+aside,
+article,
+section,
+footer {
+    display: block;
+}
