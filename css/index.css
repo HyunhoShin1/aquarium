@@ -1,11 +1,27 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: 'LH L';
+    src: url('../font/LHL.eot');
+    src: url('../font/LHL.eot?#iefix') format('embedded-opentype'),
+        url('../font/LHL.woff2') format('woff2'),
+        url('../font/LHL.woff') format('woff'),
+        url('../font/LHL.ttf') format('truetype'),
+        url('../font/LHL.svg#LHL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'LH L';
+    font-size: 16px;
+    letter-spacing: ;
+}
 .container {
     position: relative;
     width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: beige;
+    background-color: rgb(253, 253, 238);
 }
 
 /* ===============================header========================== */
@@ -18,7 +34,8 @@
 .logo-menu-box {
     display: flex;
     justify-content: space-between;
-    /* background-color: antiquewhite; */
+    align-items: end;
+    background-color: rgb(209, 137, 43);
 }
 .logo img {
     padding-top: 15px;
@@ -28,21 +45,26 @@
     display: flex;
     justify-content: space-between;
     width: 948px;
-    padding: 70px 0 0 173px;
+    background-color: rgb(80, 24, 126);
 }
 .main-menu .gnb > li {
     padding-right: 59px;
     border-right: 1px solid white;
     background-color: aquamarine;
 }
+.main-menu .gnb > li:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
 .main-menu .gnb > li > a {
+    font-size: 16px;
     color: white;
     text-align: center;
     /* background-color: antiquewhite; */
 }
 .top-menu {
     position: absolute;
-    top: 0;
+    top: 23px;
     right: 0;
     width: 220px;
 }
