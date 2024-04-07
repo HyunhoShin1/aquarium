@@ -278,8 +278,6 @@ body {
     overflow: hidden;
     /* background-color: rgb(91, 21, 94); */
 }
-.info .treat > .treat-info > .treat-info-box {
-}
 .info .treat > .treat-info .treat-list {
     display: flex;
     position: absolute;
