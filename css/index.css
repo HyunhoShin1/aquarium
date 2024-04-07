@@ -20,11 +20,12 @@ body {
     width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: rgb(253, 253, 238);
+    background-color: rgb(165, 219, 190);
 }
 
 /* ===============================header========================== */
 .logo-topmenu-mainmenu {
+    position: absolute;
     width: 1500px;
     height: 110px;
     margin: 0 auto;
@@ -34,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background-color: rgb(209, 137, 43);
+    /* background-color: rgb(209, 137, 43); */
 }
 .logo img {
     padding-top: 15px;
@@ -44,21 +45,22 @@ body {
     display: flex;
     justify-content: space-between;
     width: 948px;
-    background-color: rgb(80, 24, 126);
+    /* background-color: rgb(80, 24, 126); */
 }
 .main-menu .gnb > li {
-    padding-right: 59px;
+    padding-right: 70px;
     border-right: 1px solid white;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .main-menu .gnb > li:last-child {
-    border-right: 0;
     padding-right: 0;
+    border-right: 0;
+    /* background-color: azure; */
 }
 .main-menu .gnb > li > a {
     font-size: 16px;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     /* background-color: antiquewhite; */
 }
 .top-menu {
@@ -73,17 +75,29 @@ body {
     justify-content: space-between;
 }
 .top-menu > .topmenu-list > li {
-    padding-right: 14px;
+    padding-right: 10px;
     border-right: 1px solid white;
 }
 .top-menu > .topmenu-list > li:last-child {
+    padding-right: 0;
     border-right: 0;
 }
 .top-menu > .topmenu-list a {
     font-size: 12px;
     color: white;
+    letter-spacing: 2px;
 }
 
 
+
 /* ===============================main========================== */
+
+.intro-page {
+    height: 1080px;
+    background-size: auto;
+    background: url(../images/1page_background.jpg) no-repeat;
+}
+
+.intro-page .intro-text {
+}
 /* ===============================footer========================== */
