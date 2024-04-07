@@ -14,7 +14,6 @@
 body {
     font-family: 'LH L';
     font-size: 16px;
-    letter-spacing: ;
 }
 .container {
     position: relative;
@@ -59,17 +58,30 @@ body {
 .main-menu .gnb > li > a {
     font-size: 16px;
     color: white;
-    text-align: center;
+    letter-spacing: 3px;
     /* background-color: antiquewhite; */
 }
 .top-menu {
     position: absolute;
-    top: 23px;
-    right: 0;
+    top: 20px;
+    right: 20px;
     width: 220px;
+    /* background-color: blue; */
 }
 .top-menu > .topmenu-list {
     display: flex;
+    justify-content: space-between;
+}
+.top-menu > .topmenu-list > li {
+    padding-right: 14px;
+    border-right: 1px solid white;
+}
+.top-menu > .topmenu-list > li:last-child {
+    border-right: 0;
+}
+.top-menu > .topmenu-list a {
+    font-size: 12px;
+    color: white;
 }
 
 
