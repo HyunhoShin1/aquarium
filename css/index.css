@@ -21,7 +21,7 @@ body {
     width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: rgb(165, 219, 190);
+    /* background-color: rgb(165, 219, 190); */
 }
 
 /* ===============================header========================== */
@@ -159,7 +159,7 @@ body {
 }
 .info .way-runtime-box > .way {
     width: 620px;
-    background-color: violet;
+    /* background-color: violet; */
 }
 .info .way-runtime-box > .way > h3 {
     font-size: 30px;
@@ -174,7 +174,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     text-align: right;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .info .way-runtime-box .runtime > h3 {
     font-size: 30px;
@@ -189,7 +189,7 @@ body {
 .info .way-runtime-box .runtime p.time {
     font-size: 30px;
     margin-bottom: -50px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 .info .way-runtime-box .runtime p.time-notice {
     font-size: 18px;
@@ -197,7 +197,7 @@ body {
 }
 .info .way-runtime-box .runtime .booking-list li {
     padding: 10px 0;
-    background-color: #04f9f9;
+    /* background-color: #04f9f9; */
 }
 .info .way-runtime-box .runtime .booking-list a {
     display: block;
@@ -353,6 +353,7 @@ body {
 .event .event-list .eve > p {
     font-size: 16px;
     margin-top: 40px;
+    letter-spacing: 2px;
     color: white;
 }
 .event .event-list .program {
@@ -374,41 +375,151 @@ body {
 .event .event-list .program > p {
     font-size: 16px;
     margin-top: 40px;
+    letter-spacing: 2px;
     color: white;
 }
-
+/* -------sns------- */
 .event .sns-box {
     display: flex;
     justify-content: center;
+    margin-top: 172px;
 }
 .event .sns-box .insta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 640px;
-    height: 136px;
-    background-color: yellowgreen;
+    height: 148px;
+    background-color: rgb(0, 0, 0, 0.7);
 }
-.event .sns-box > .insta > .insta-logo {
+.event .sns-box .insta > .insta-logo {
     width: 52px;
     height: 52px;
-    
 }
-.event .sns-box > .insta > .insta-background {
+.event .sns-box a {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: white;
+}
+.event .sns-box .insta > .insta-background {
     width: 330px;
 }
 
-.event .sns-box > .facebook {
+.event .sns-box .facebook {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 640px;
-    height: 136px;
-    background-color: violet;
+    height: 148px;
+    background-color: rgb(0, 0, 0, 0.7);
 }
-.event .sns-box > .facebook > .facebook-background {
+.event .sns-box .facebook > .facebook-background {
     width: 330px;
+    height: inherit;
 }
-.event .sns-box > .facebook > .facebook-logo {
+.event .sns-box .facebook > .facebook-logo {
     width: 52px;
     height: 52px;
 }
 /* ===============================footer========================== */
+footer {
+    width: 100%;
+    height: 187px;
+    background-color: #06283d;
+}
+.lotteworld-menu .lotteworld-menu-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    margin: 0 auto;
+}
+.lotteworld-menu .lotteworld-menu-list a {
+    flex: 212px;
+    padding: 10px 0px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    border-left: 1px solid white;
+    /* background-color: #04f9f9; */
+}
+.lotteworld-menu .lotteworld-menu-list a:nth-of-type(5){
+    border-right: 1px solid white;
+}
+
+/*--- footerlogo-info-security ---*/
+.footer-content-box {
+    display: flex;
+    margin-top: 30px;
+}
+.footer-content-box .footer-logo img {
+    width: 100px;
+}
+.footer-content-box > .footer-menu-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.footer-content-box > .footer-menu-box > .footer-menu > ul {
+    display: flex;
+}
+.footer-content-box > .footer-menu-box > .footer-menu li > a {
+    color: white;
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+.footer-content-box > .footer-menu-box > .footer-menu li:first-child a {
+    padding-left: 0;
+}
+.footer-content-box > .footer-menu-box > .footer-menu li:last-child a {
+    border-right: 0;
+}
+.footer-content-box > .footer-menu-box p.copyright {
+    color: #aaa;
+}
+
+.security {
+    position: absolute;
+    right: 500px;
+    bottom: 5px;
+}
+.security > .security-box {
+    display: flex;
+    align-items: center;
+}
+.security > .security-box > img {
+    width: 50px;
+}
+.security > .security-box > p {
+    font-size: 12px;
+    color: #aaa;
+}
+.security > .security-box > p > a {
+    color: #aaa;
+}
+
+.employment {
+    position: absolute;
+    bottom: 30px;
+    right: 250px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 40%;
+}
+
+/* .subsidiary-site {
+    display: flex;
+    justify-content: end;
+    background-color: yellowgreen;
+} */
+
+/* .subsidiary-site {
+    position: absolute;
+} */
+
+.subsidiary-site {
+    transform: translate(1140px, -50px);
+}
