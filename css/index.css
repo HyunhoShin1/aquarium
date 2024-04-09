@@ -521,5 +521,7 @@ footer {
 } */
 
 .subsidiary-site {
+    width: 0px;
     transform: translate(1140px, -50px);
+    /* background-color: #04f9f9; */
 }
