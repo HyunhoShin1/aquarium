@@ -285,7 +285,7 @@ body {
     top: 20px;
     left: 300px;
 }
-.info .treat > .treat-info .treat-list a {
+.info .treat > .treat-info .treat-list li {
     margin-right: 40px;
     padding-top: 20px;
     width: 290px;
@@ -293,6 +293,11 @@ body {
     text-align: center;
     background-color: rgb(0, 0, 0, 0.7);
     color: white;
+}
+
+.info .treat > .treat-info .treat-list li a{
+    display: block;
+    /* background-color: #ffc60b; */
 }
 .info .treat > .treat-info .treat-list a img {
     width: 150px;
@@ -433,7 +438,7 @@ footer {
     width: 1060px;
     margin: 0 auto;
 }
-.lotteworld-menu .lotteworld-menu-list a {
+.lotteworld-menu .lotteworld-menu-list li {
     flex: 212px;
     padding: 10px 0px;
     font-size: 14px;
@@ -443,7 +448,7 @@ footer {
     border-left: 1px solid white;
     /* background-color: #04f9f9; */
 }
-.lotteworld-menu .lotteworld-menu-list a:nth-of-type(5){
+.lotteworld-menu .lotteworld-menu-list li:nth-of-type(5){
     border-right: 1px solid white;
 }
 
