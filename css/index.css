@@ -314,8 +314,9 @@ body {
     letter-spacing: 2px;
     /* background-color: orange; */
 }
-.info .treat > .treat-info .treat-list a h5 {
+.info .treat > .treat-info .treat-list a .price {
     font-size: 18px;
+    text-align: center;
 }
 
 
