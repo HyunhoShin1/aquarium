@@ -522,11 +522,8 @@ footer {
     background-color: yellowgreen;
 } */
 
-/* .subsidiary-site {
-    position: absolute;
-} */
-
 .subsidiary-site {
+    position: absolute;
     width: 0px;
     transform: translate(1140px, -50px);
     /* background-color: #04f9f9; */
